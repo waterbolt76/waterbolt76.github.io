@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solo Leveling Ragnarok</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/comments.js"></script>
+</head>
+
+<body>
+    <div class="Main">
+        <header>
+            <a href="index.html"><img src="img/Logo.png" alt="Solo Leveling Ragnarok Logo"></a>
+        </header>
+
+        <div class="boxes">
+            <a href="Chapters/index.html" class="box">
+                <h3>Chapters</h3>
+            </a>
+            <a href="Characters/index.html" class="box">
+                <h3>Characters</h3>
+            </a>
+            <a href="Monsters/index.html" class="box">
+                <h3>Monsters</h3>
+            </a>
+        </div>
+
+        <section class="intro">
+            <p>This is a website that will provide you with a brief but accurate synopsis of what Solo Leveling Ragnarok
+                is about and the manhwa series as a whole. The site will cover basic character information and go into
+                detail about the arcs currently occurring.</p>
+            <p>As of the current build, the manwha is on chapter 47 of the manhwa adaptation. Some information may not
+                be as up-to-date as the series, but it will be updated when new chapters are released with additional
+                information.</p>
+        </section>
+        <section class="swiper-container-section">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper" id="swiperWrapper"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="what-is">
+            <h2>What is Solo Leveling Ragnarok</h2>
+            <p>Solo Leveling Ragnarok is the continuation of the prior series, Solo Leveling. The story begins with
+                the
+                sudden appearance of a gate.</p>
+            <p>Gates are portals to another dimension that house dangerous monsters and creatures. To combat this
+                new
+                threat, certain people are granted the ability to use mana, which gives birth to the first wave of
+                Hunters.</p>
+            <p>Hunters are ordinary people whose bodies can store mana, strengthening them and enabling them to
+                fight
+                the new threats from the gates.</p>
+            <p>Hunters have ranks that determine their strength. These ranks are:</p>
+            <ul>
+                <li>National Hunter - Rivals a nation's military strength.</li>
+                <li>S Rank - The highest rank a hunter can achieve.</li>
+                <li>A Rank - The second-highest rank.</li>
+                <li>B Rank - The third-highest rank.</li>
+                <li>C Rank - The middle rank, with the most active hunters.</li>
+                <li>D Rank - The second-lowest rank.</li>
+                <li>E Rank - The weakest rank, barely stronger than a normal person.</li>
+            </ul>
+            <p>The story follows Sung Jin Woo, the weakest E-rank hunter, who later gains a system that allows him
+                to
+                become the strongest hunter in his world.</p>
+            <p>The story focuses on his son, Sung Suho, a typical university student who discovers his father's
+                gift,
+                the Leveling System, when a gate opens near his school.</p>
+            <p>For more about the characters, <a href="Characters/Suho.html">click here</a>.</p>
+        </section>
+        <section class="comments">
+            <form>
+                <label for="newComment">Add a new comment:</label>
+                <p></p>
+                <input type="text" id="newComment" class="new-comment" placeholder="New comment" />
+                <button type="submit" class="add-comment" id="addNewComment">
+                    <i class="fas fa-plus"></i>
+                    <span>+ Add</span>
+                </button>
+        
+                <div class="Comments">
+                    <p>Comments</p>
+                    <ul class="comment-list" id="commentList"></ul>
+                </div>
+            </form>
+        </section>
+        
+    </div>
+</body>
+
+</html>

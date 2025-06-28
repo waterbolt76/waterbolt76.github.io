@@ -1,0 +1,53 @@
+[
+    {
+      "name": "Sung Suho",
+      "image": "../img/Suho.jpg",
+      "link": "../Characters/Suho.html"
+    },
+    {
+      "name": "Sung Jinwoo",
+      "image": "../img/Jinwoo.jpg",
+      "link": "../Characters/Jinwoo.html"
+    },
+    {
+      "name": "Sung Jinah",
+      "image": "../img/Jinah.jpg",
+      "link": "../Characters/Jinah.html"
+    },
+    {
+      "name": "Sung Ilhwan",
+      "image": "../img/Ilhwan.jpg",
+      "link": "../Characters/Ilhwan.html"
+    },
+    {
+      "name": "Park Kyung-Hye",
+      "image": "../img/KyungHye.jpg",
+      "link": "../Characters/KyungHye.html"
+    },
+    {
+      "name": "Go Gunhee",
+      "image": "../img/Gun.jpg",
+      "link": "../Characters/Gun.html"
+    },
+    {
+      "name": "Yoo Jinho",
+      "image": "../img/Jin.jpg",
+      "link": "../Characters/Yoo.html"
+    },
+    {
+      "name": "Cha Hae-In",
+      "image": "../img/Cha.jpg",
+      "link": "../Characters/Cha.html"
+    },
+    {
+      "name": "Woo Jin-chul",
+      "image": "../img/Woo.jpg",
+      "link": "../Characters/Woo.html"
+    },
+    {
+      "name": "Thomas Andre",
+      "image": "../img/Thomas.jpg",
+      "link": "../Characters/Andre.html"
+    }
+  ]
+  

@@ -1,0 +1,43 @@
+[
+    {
+      "name": "Ammut",
+      "image": "../img/Ammut.jpg",
+      "link": "../Monsters/Ammut.html"
+    },
+    {
+      "name": "Ant Queen",
+      "image": "../img/AntQueen.jpg",
+      "link": "../Monsters/Antqueen.html"
+    },
+    {
+      "name": "Beru",
+      "image": "../img/Beru.jpg",
+      "link": "../Monsters/Beru.html"
+    },
+    {
+      "name": "Esil",
+      "image": "../img/Esil.jpg",
+      "link": "../Monsters/Esil.html"
+    },
+    {
+      "name": "Giants",
+      "image": "../img/Giant.jpg",
+      "link": "../Monsters/Giant.html"
+    },
+    {
+      "name": "Goblins",
+      "image": "../img/Goblin.jpg",
+      "link": "../Monsters/Goblin.html"
+    },
+    {
+      "name": "Grey",
+      "image": "../img/Grey.jpg",
+      "link": "../Monsters/Grey.html"
+    },
+    {
+      "name": "Kamish",
+      "image": "../img/Kamish.jpg",
+      "link": "../Monsters/Kamish.html"
+    }
+  ]
+  

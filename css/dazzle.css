@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #1a1a2e;
+  color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #f9d342;
+  text-shadow: 1px 1px 3px #ffb347;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.cell {
+  background: #2d2d44;
+  border-radius: 12px;
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.6);
+  user-select: none;
+  cursor: default;
+  transition: background 0.3s ease;
+}
+
+.cell:hover {
+  background: #414169;
+}
+
+.controls {
+  margin-top: 10px;
+}
+
+button {
+  background: #f9d342;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 3px 6px #c8b000;
+  transition: background 0.25s ease;
+}
+
+button:hover {
+  background: #ffca28;
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 18px;
+  min-height: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: #ffa500;
+  text-shadow: 0 0 5px #ffa500;
+}
+
+.balance-container, .win-container {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #f9d342;
+  text-shadow: 0 0 5px #ffb347;
+}
+
+.topup {
+  margin-top: 20px;
+}
+
+.topup input {
+  padding: 8px;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+  text-align: right;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #f9d342;
+  box-shadow: 0 0 8px #f9d342;
+}

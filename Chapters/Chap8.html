@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dazzle 2 Slot</title>
+    <link rel="stylesheet" href="../css/dazzle.css">
+</head>
+
+<body>
+    <div class="slot-container">
+        <h1>Dazzle 2 Slot</h1>
+
+        <div class="stats">
+            <p>Balance: £<span id="balance">10</span></p>
+            <p>Last Win: £<span id="win">0</span></p>
+        </div>
+
+        <div class="grid" id="grid">
+            <!-- 3x3 grid will populate with JS -->
+        </div>
+
+        <div class="controls">
+            <button onclick="spin()">Spin (£0.50)</button>
+            <label><input type="checkbox" id="powerPlay"> Power Play £1</label>
+        </div>
+
+        <div class="topup">
+            <input type="number" id="topupAmount" placeholder="Add £££" min="1">
+            <button onclick="topUp()">Add Funds</button>
+        </div>
+
+
+        <div id="message"></div>
+    </div>
+
+    <script src="../js/dazzle.js"></script>
+</body>
+
+</html>
