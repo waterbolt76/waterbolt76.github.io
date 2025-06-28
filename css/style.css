@@ -16,6 +16,15 @@ body, html {
     height: 100%;
 }
 
+#game-2048 {
+  width: 500px; /* Adjust as needed for your game size */
+  height: 500px; /* Adjust as needed for your game size */
+  background-color: #d2b48c; /* Matches your game background */
+  border-radius: 10px; /* Optional for rounded corners */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .intro {
     margin-top: 30px;

@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background: linear-gradient(to left, #0000ff, #8000ff);
+}
+
+#game-2048 {
+    width: 50vw; /* 50% of the viewport width */
+    height: 50vw; /* Keep it square by matching width */
+    max-width: 800px; /* Optional: Limit maximum size */
+    max-height: 800px; /* Optional: Limit maximum size */
+    background: #bbada0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 rows */
+    gap: 1.5%; /* Space between tiles scales with container size */
+    padding: 1.5%; /* Padding scales with container size */
+    border-radius: 10px;
+}
+
+.tile {
+    background: #cdc1b4;
+    font-size: calc(2vw); /* Font size scales with viewport width */
+    color: #776e65;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-weight: bold;
+    width: 100%; /* Automatically adjusts to grid cell size */
+    height: 100%; /* Automatically adjusts to grid cell size */
+}
+
+.tile[data-value="2"]    { background: #eee4da; }
+.tile[data-value="4"]    { background: #ede0c8; }
+.tile[data-value="8"]    { background: #f2b179; color: #f9f6f2; }
+.tile[data-value="16"]   { background: #f59563; color: #f9f6f2; }
+.tile[data-value="32"]   { background: #f67c5f; color: #f9f6f2; }
+.tile[data-value="64"]   { background: #f65e3b; color: #f9f6f2; }
+.tile[data-value="128"]  { background: #edcf72; color: #f9f6f2; }
+.tile[data-value="256"]  { background: #edcc61; color: #f9f6f2; }
+.tile[data-value="512"]  { background: #edc850; color: #f9f6f2; }
+.tile[data-value="1024"] { background: #edc53f; color: #f9f6f2; }
+.tile[data-value="2048"] { background: #edc22e; color: #f9f6f2; }
